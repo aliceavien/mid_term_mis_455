@@ -60,7 +60,7 @@ body{
 
 .welcome{
     font-size: 50px;
-    color: rgb(87, 42, 102);
+    color: white;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 150px;
 }
@@ -88,6 +88,16 @@ body{
 .anchorAyeshi:hover{
     color: #5b548a;
 }
+
+.containerHead{
+    height: 10vh;
+    background: linear-gradient(-135deg, #00feba, #5b548a);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin:40px 0px;
+}
+
 
 
 /* Product Page */
