@@ -150,10 +150,15 @@ body{
 }
 .inner-containerx:hover img {
     transform: scale(1.1);
+    opacity: 0.5;
 }
 
 .inner-containerx:hover .add-to-cart-button {
     opacity: 1;
+}
+
+.add-to-cart-button:hover{
+    background-color: #418343; 
 }
 
 
