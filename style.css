@@ -102,11 +102,17 @@ body{
 .inner-containerx img {
     width: 420px;
     height: 420px;
+    transition: transform 0.3s ease-in-out;
+}
+.inner-containerx{
+    position: relative;
+    overflow: hidden;
 }
 
 .inner-containerx h1 {
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 .productHeader{
@@ -115,6 +121,28 @@ body{
 
 }
 
+.add-to-cart-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: #4caf50; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: inline-block; 
+}
+.inner-containerx:hover img {
+    transform: scale(1.1);
+}
+
+.inner-containerx:hover .add-to-cart-button {
+    opacity: 1;
+}
 
 
 
