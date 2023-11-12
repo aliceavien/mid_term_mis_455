@@ -54,13 +54,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .welcome{
     font-size: 50px;
     color: rgb(87, 42, 102);
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 150px;
 }
 
 .card img{
@@ -71,6 +72,20 @@ body{
 
 .card{
     width: 500px;
+}
+
+.welcomePara{
+    font-size: 20px;
+    color: rgb(87, 42, 102);
+    font-weight: bold;
+    margin-bottom: 180px;
+}
+
+.anchorAyeshi{
+    color: brown;
+}
+.anchorAyeshi:hover{
+    color: #5b548a;
 }
 
 
