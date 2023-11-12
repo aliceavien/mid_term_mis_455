@@ -1,4 +1,4 @@
-*{
+body{
     max-width: 1440px;
     margin: auto;
 }
@@ -36,12 +36,44 @@
 .footer {
     background: linear-gradient(-135deg, #00feba, #5b548a);
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 1440px;
     font-weight: bold;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.main-content {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.welcome{
+    font-size: 50px;
+    color: rgb(87, 42, 102);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    margin: 0px 0px;
+}
+
+.card{
+    width: 500px;
+}
+
+
+
+
+
